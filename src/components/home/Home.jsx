@@ -9,6 +9,7 @@ function Home() {
   return (
     <header>
       <div className="container header__container">
+      <h5 className='h5__color'>Bonjour je suis</h5>
         <h5 className='h5__color'>Hello I'am</h5>
         <h1>Mohd Khalid Khan</h1>
         <h5 className='text-light'>Fullstack Developer</h5>

@@ -3,7 +3,8 @@ section > h2 {
 }
 
 section > h5 {
-    margin-top: 5%;  
+    margin-top: 5%;
+    color: orange;  
 }
 
 .about__container {
@@ -73,6 +74,7 @@ section > h5 {
 
 .about__card h5 {
     font-size: 0.95rem;
+    
 }
 
 .about__card small {

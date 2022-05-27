@@ -1,0 +1,15 @@
+.heading > h2 {
+    margin-bottom: 10vh;
+    display: flex;
+    color: orange;
+    justify-content: center;
+    align-items: center;
+}
+.heading > h5 {
+    margin-top: 10vh;
+    display: flex;
+    color: orange;
+    justify-content: center;
+    align-items: center;
+}
+

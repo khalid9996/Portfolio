@@ -1,0 +1,108 @@
+
+
+.list {
+    display: flex;
+    margin-left:100px;
+    margin-top: 130px;
+    min-height: 50vh;
+}
+
+
+.list ul {
+    position: relative;
+    transform: skewY(-15deg);
+
+}
+
+.list li {
+    position: relative;
+    list-style: none;
+    width: 200px;
+    background: linear-gradient(rgb(59, 59, 59),rgb(39, 39, 39));
+    padding: 15px;
+    transition: 0.5s;
+    
+    
+}
+
+.list li:hover {
+    background: linear-gradient(orange,transparent);
+    transition: 0.5s;
+    transform: translateX(30px);
+    margin-bottom: 40px;
+    z-index: 6;
+}
+
+.zid1 {
+    z-index: 1;
+}
+
+.zid2 {
+    z-index: 2;
+}
+
+.zid3 {
+    z-index: 3;
+}
+
+.zid4 {
+    z-index: 4;
+}
+
+.zid5 {
+    z-index: 5;
+}
+
+
+.list li::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -40px;
+    width: 40px;
+    height: 100%;
+    background: linear-gradient(rgb(51, 51, 51),rgb(39, 39, 39));
+    transform-origin: right;
+    transform: skewY(45deg);
+    transition: 0.5s;
+    border-radius: 0;
+}
+
+.list li:hover::before {
+    background: linear-gradient(orange,transparent);
+}
+
+.list li::after {
+    content: '';
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: rgb(36, 36, 36);
+    height: 40px;
+    width: 100%;
+    transform-origin: bottom;
+    transform: skewX(45deg);
+    transition: 0.5s;
+    border-radius: 0;
+}
+
+.list li:hover::after {
+    background: rgb(255, 183, 49);
+}
+
+/* .list li:last-child::after {
+    box-shadow: -120px 120px 20px rgb(43, 43, 43);
+} */
+
+
+.list h5 {
+    color: rgb(158, 158, 158);
+    display: block;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+}
+
+.list li:hover h5 {
+    color: #fff;
+}
+
