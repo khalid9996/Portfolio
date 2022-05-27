@@ -1,11 +1,12 @@
 import React from 'react'
 import CV from '../../assets/CV.jpg'
+import { Link } from 'react-router-dom'
 
 function CTA() {
   return (
     <div className='hbtn'>
         <a href={CV} download className='btn6__h btn'>Download CV</a>
-        <a href="/contact" className='btn6__h  btn'>Let's Talk</a>
+        <Link to="/contact" className='btn6__h  btn'>Let's Talk</Link>
     </div>
   )
 }
