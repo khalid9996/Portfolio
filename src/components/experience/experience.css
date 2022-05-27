@@ -1,0 +1,25 @@
+
+
+.test {
+    
+    width: max-content;
+    height: 10rem;
+    transform: rotate(10deg);
+    transition: 0.5s;
+    margin-right: -0.1%;
+    
+    
+}
+
+.test:hover {
+    transform: rotate(0);
+    
+    transform: scale(130%);
+    z-index: 1;
+}
+
+.align {
+    display: flex;
+    
+}
+

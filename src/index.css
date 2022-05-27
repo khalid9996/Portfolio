@@ -14,7 +14,7 @@
 :root {
     --color-bg: #1f1f38;
     --color-bg-variant: #2c2c6c;
-    --color-primary: #4db5ff;
+    --color-primary: orange;
     --color-primary-variant: rgba(77, 181, 255, 0.4);
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
@@ -57,10 +57,10 @@ h1 {
     font-size: 2.5rem;
 }
 
-section {
-    margin-top: 8rem;
+/* section {
+    margin-bottom: 8rem;
     height: 100vh;
-}
+} */
 
 section > h2, section > h5 {
     text-align: center;
@@ -105,6 +105,124 @@ a:hover {
     background: var(--color-primary);
     color: var(--color-bg);
 }
+
+/* *************My Button*************** */
+
+.btn6 {
+    
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.btn6:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.btn6:active {
+    color: transparent
+}
+
+.btn6:active:after {
+    background: transparent;
+}
+
+.btn6:hover:before {
+    opacity: 1;
+}
+
+.btn6:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+/* *************************** */
+
+/* *************rgb effect*************** */
+
+.rgb {
+    
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.rgb:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+    
+}
+
+.rgb:active {
+    color: transparent
+    
+}
+
+.rgb:active:after {
+    /* background: transparent; */
+}
+
+.rgb:hover:before {
+    opacity: 1;
+    
+}
+
+.rgb:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+    
+}
+/* *************************** */
+
+
 
 img {
     display: block;

@@ -10,9 +10,9 @@ header {
     position: relative;
 }
 
-/* ******************** CTA *************** */
+/* ******************** Buttons *************** */
 
-.cta {
+.hbtn {
     margin-top: 2.5rem;
     display: flex;
     gap: 1.2rem;
@@ -40,7 +40,7 @@ header {
 
 /* **************** ME ************* */
 .me {
-    background: linear-gradient(var(--color-primary), transparent);
+    background: linear-gradient(orange, transparent);
     width: 22rem;
     height: 30rem;
     position: absolute;
@@ -49,6 +49,17 @@ header {
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     padding: 5rem 1.5rem 1.5rem;
+
+}
+
+.me img {
+    transform: rotate(10deg);
+    border-radius: 2rem;
+    transition: 0.5s;
+}
+
+.me img:hover {
+    transform: scale(140%);
 
 }
 
@@ -89,7 +100,8 @@ header {
 /* ************ btn6 css ********* */
 
 
-.btn6 {
+.btn6__h {
+    
     width: 150px;
     height: 50px;
     border: none;
@@ -102,7 +114,7 @@ header {
     border-radius: 10px;
 }
 
-.btn6:before {
+.btn6__h:before {
     content: '';
     background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
     position: absolute;
@@ -119,19 +131,19 @@ header {
     border-radius: 10px;
 }
 
-.btn6:active {
+.btn6__h:active {
     color: transparent
 }
 
-.btn6:active:after {
+.btn6__h:active:after {
     background: transparent;
 }
 
-.btn6:hover:before {
+.btn6__h:hover:before {
     opacity: 1;
 }
 
-.btn6:after {
+.btn6__h:after {
     z-index: -1;
     content: '';
     position: absolute;
@@ -150,3 +162,6 @@ header {
 }
 
 
+.h5__color {
+    color: orange;
+}
