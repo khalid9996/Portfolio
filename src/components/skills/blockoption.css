@@ -1,10 +1,11 @@
 
 
 .list {
-    display: flex;
+    display: block;
     margin-left:100px;
     margin-top: 130px;
-    min-height: 50vh;
+    min-height: 40vh;
+    position: fixed;
 }
 
 

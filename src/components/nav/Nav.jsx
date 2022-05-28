@@ -15,7 +15,7 @@ const Nav = () => {
   const [activeNav, setActiveNav] = useState('/')
   return (
     <div>
-    <nav className='nav_s rgb'>
+    <nav className='nav_s navrgb'>
       
       <Link to='/' onClick={() => setActiveNav('/')} className={activeNav === '/' ? 'active' : ''}><AiOutlineHome/></Link>
       <Link to='/about' onClick={() => setActiveNav('/about')} className={activeNav === '/about' ? 'active' : ''}><AiOutlineUser/></Link>
