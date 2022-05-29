@@ -1,3 +1,4 @@
+
 header {
     height: 100vh;
     padding-top: 7rem;
@@ -118,8 +119,6 @@ header {
     }
 }
 
-
-
 /* ************ btn6 css ********* */
 
 
@@ -187,4 +186,71 @@ header {
 
 .h5__color {
     color: orange;
+}
+
+
+
+
+
+
+/* ***************** Media Queries (Height)********** */
+
+@media screen and (max-height: 900px) {
+    .view {
+        padding-bottom: 8rem;
+    }
+}
+
+@media screen and (max-height: 800px) {
+    .view {
+        padding-bottom: 10rem;
+    }
+}
+
+@media screen and (max-height: 700px) {
+    .view {
+        padding-bottom: 15rem;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    .view {
+        padding-bottom: 17rem;
+    }
+}
+
+@media screen and (max-height: 500px) {
+    .view {
+        padding-bottom: 22rem;
+    }
+}
+
+@media screen and (max-height: 400px) {
+    .view {
+        padding-bottom: 25rem;
+    }
+}
+
+@media screen and (max-height: 300px) {
+    .view {
+        padding-bottom: 28rem;
+    }
+}
+
+@media screen and (max-height: 200px) {
+    .view {
+        padding-bottom: 35rem;
+    }
+}
+
+@media screen and (max-height: 100px) {
+    .view {
+        padding-bottom: 42rem;
+    }
+}
+
+@media screen and (max-height: 50px) {
+    .view {
+        padding-bottom: 50rem;
+    }
 }

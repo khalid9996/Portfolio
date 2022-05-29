@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom'
 
 function Home() {
   return (
+    <div className='view'>
     <header>
       <div className="container header__container">
       <h5 className='h5__color'>Bonjour je suis</h5>
@@ -18,10 +19,12 @@ function Home() {
         <div className="me">
           <img src={ME} alt='me'></img>
         </div>
+        <span className='space'></span>
         <Link to='/contact' className='scroll__down'>Contact ~</Link>
 
       </div>
     </header>
+    </div>
   )
 }
 
