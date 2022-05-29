@@ -5,12 +5,12 @@ import {FaFacebookF} from 'react-icons/fa'
 import {FiInstagram} from 'react-icons/fi'
 import {AiFillGithub} from 'react-icons/ai'
 import {AiFillLinkedin} from 'react-icons/ai'
-import Wave from './Wave'
+
 
 const Footer = () => {
   return (
     <>
-    <Wave/>
+    
     <footer>
       <Link to="/" className='footer__logo rgb'>real khalid</Link>
       <ul className='footer__links'>

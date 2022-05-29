@@ -4,9 +4,10 @@ import Nav from './components/nav/Nav';
 import About from './components/about/About';
 import Skills from './components/skills/Skills';
 import Services from './components/services/Services';
-
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
+import Wave from './components/footer/Wave';
+
 
 import { BrowserRouter as Router , Route, Routes, Navigate} from 'react-router-dom';
 
@@ -15,6 +16,7 @@ function App(){
     <>
         
         <Router>
+        
         <Nav/>
         
         <Routes>
@@ -26,6 +28,7 @@ function App(){
         <Route path="/Portfolio" element={<Navigate to="/"/>}/>
         
         </Routes>
+        <Wave/>
         <Footer/>
         </Router>
 

@@ -16,28 +16,23 @@
     align-items: center;
 }
 
-.section1 {
-    margin-left: 22rem;
-    
-    
-}
 
-.section1 h2 {
-    color: orange;
-}
 
-.section1 p {
-    color: coral;
-    margin-bottom: 3rem;
-    margin-right: 3rem;
-    
-}
 
-.section2 {
-    display: block;
-    width: 40rem;
-    
-    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+
+/* ***************** Media Queries (small Devices)********** */
+
+@media screen and (max-width: 600px) {
+    .list {
+        position: relative;
+    }
 }
 
 
+/* ***************** Media Queries (medium Devices)********** */
+
+@media screen and (max-width: 1024px) {
+    .list {
+        position: relative;
+    }
+}

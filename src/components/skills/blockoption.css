@@ -3,7 +3,7 @@
 .list {
     display: block;
     margin-left:100px;
-    margin-top: 130px;
+    margin-top: 5rem;
     min-height: 40vh;
     position: fixed;
 }
