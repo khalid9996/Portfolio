@@ -9,6 +9,16 @@ import Footer from './components/footer/Footer';
 import Wave from './components/footer/Wave';
 
 
+import Blockoption from './components/skills/Blockoption'
+
+import Coding from './components/skills/myskills/Coding'
+import Webdevelopment from './components/skills/myskills/Webdevelopment'
+import Graphicsdesign from './components/skills/myskills/Graphicsdesign'
+import Videography from './components/skills/myskills/Videography'
+import ThreeD from './components/skills/myskills/ThreeD'
+
+
+
 import { BrowserRouter as Router , Route, Routes, Navigate} from 'react-router-dom';
 
 function App(){
@@ -27,6 +37,14 @@ function App(){
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/Portfolio" element={<Navigate to="/"/>}/>
         
+
+        <Route path='/skills/coding' element={<><Blockoption/><Coding/></>}/>
+        <Route path='/skills/webdevelopment' element={<><Blockoption/><Webdevelopment/></>}/>
+        <Route path='/skills/graphicsdesign' element={<><Blockoption/><Graphicsdesign/></>}/>
+        <Route path='/skills/videography' element={<><Blockoption/><Videography/></>}/>
+        <Route path='/skills/3d' element={<><Blockoption/><ThreeD/></>}/>
+
+
         </Routes>
         <Wave/>
         <Footer/>

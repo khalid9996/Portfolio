@@ -1,4 +1,5 @@
 import React from 'react'
+
 import Blockoption from './Blockoption'
 
 import './skills.css'
@@ -14,6 +15,7 @@ const Skills = () => {
     </div>
     <div className='skills__container'>
     <Blockoption/>
+
     </div>
     
     </>

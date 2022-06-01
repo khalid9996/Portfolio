@@ -1,9 +1,9 @@
 import React from 'react'
 
-const coding = () => {
+const Coding = () => {
   return (
-    <div>coding</div>
+    <div>Coding</div>
   )
 }
 
-export default coding
+export default Coding

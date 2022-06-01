@@ -48,7 +48,7 @@ header {
     content: '';
     width: 1px;
     height: 2rem;
-    background: var(--color-primary);
+    background: orange;
 }
 
 /* **************** ME ************* */
@@ -183,11 +183,22 @@ header {
     100% { background-position: 0 0; }
 }
 
-
+/* ************ H5 ************ */
 .h5__color {
     color: orange;
+    animation: h5_glow 1.5s linear infinite alternate;
 }
 
+@keyframes h5_glow {
+    0% {
+        text-shadow: 0 0 10px orange;
+        
+    }
+
+    100% {
+        text-shadow: 0 0 10px yellow;
+    }
+}
 
 
 
