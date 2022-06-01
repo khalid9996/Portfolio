@@ -8,7 +8,7 @@
 
 .contact__head {
     color: orange;
-    animation: contact 1s linear infinite alternate;
+    animation: contact 1.5s linear infinite alternate;
 }
 
 @keyframes contact {
@@ -49,6 +49,20 @@
     margin-bottom: 0.5rem;
 }
 
+.style__email {
+    color: rgb(177, 41, 0);
+}
+
+.style__insta {
+    color: rgb(255, 0, 119);
+}
+
+.style__wapp {
+    color: rgb(30, 128, 0);
+}
+
+
+
 .contact__option a {
     margin-top: 0.7rem;
     display: inline-block;
@@ -67,7 +81,7 @@ input, textarea {
     width: 100%;
     padding: 1.5rem;
     border-radius: 0.5rem;
-    background: transparent;
+    background: linear-gradient(180deg,rgba(188, 57, 228, 0.205), transparent);
     border: 2px solid orange;
     resize: none;
     color: white;

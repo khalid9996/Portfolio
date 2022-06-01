@@ -27,6 +27,7 @@ function Contact() {
     
       <div>
         <div className='contact__head'>
+        <h5>Entrer en contact</h5>
         <h5>Get in touch</h5>
         <h2>Contact</h2>
         </div>
@@ -37,21 +38,21 @@ function Contact() {
 
 
     <article className="contact__option rgb">
-      <MdOutlineEmail className='contact__option__icon'/> 
+      <MdOutlineEmail className='contact__option__icon style__email'/> 
       <h4>Email</h4>
       <h6>khankhalid1743@gmail.com</h6>
       <a href="mailto:khankhalid1743@gmail.com" target='_blank' rel="noreferrer">Send a Message</a>
     </article>
 
     <article className="contact__option rgb">
-      <AiOutlineInstagram className='contact__option__icon'/> 
+      <AiOutlineInstagram className='contact__option__icon style__insta'/> 
       <h4>Message</h4>
       <h6>Instagram</h6>
       <a href="https://instagram.com/real_khalid_khan/" target='_blank' rel="noreferrer">Send a Message</a>
     </article>
 
     <article className="contact__option rgb">
-      <BsWhatsapp className='contact__option__icon'/> 
+      <BsWhatsapp className='contact__option__icon style__wapp'/> 
       <h4>WhatsApp</h4>
       <h6>+91 8770 *** ***</h6>
       <a href="https://api.whatsapp.com/send?phone=918770649309" target='_blank' rel="noreferrer">Send a Message</a>
