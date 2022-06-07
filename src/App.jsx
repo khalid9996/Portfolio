@@ -27,14 +27,24 @@ function App(){
     <>
         
         <Router> 
+        
+        {/* BG EFFECT 1 */}
         <div class="bg"></div>
         <div class="bg bg2"></div>
         <div class="bg bg3"></div>
         
+        {/* BG EFFECT 2 */}
+        <div class='bg__effectbox'>
+        <div class='sidewave -one'></div>
+        <div class='sidewave -two'></div>
+        <div class='sidewave -three'></div>
+        </div>
+
 
         <Nav/>
         
         <Routes>
+            
         <Route path="/" element={<Home/>}/>
         <Route path="/about" element={<About/>}/>
         <Route path="/skills" element={<Skills/>}/>
@@ -48,7 +58,7 @@ function App(){
         <Route path='/skills/graphicsdesign' element={<><Blockoption/><Graphicsdesign/></>}/>
         <Route path='/skills/videography' element={<><Blockoption/><Videography/></>}/>
         <Route path='/skills/3d' element={<><Blockoption/><ThreeD/></>}/>
-
+        
         
 
         </Routes>
