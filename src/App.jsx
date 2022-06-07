@@ -6,7 +6,6 @@ import Skills from './components/skills/Skills';
 import Services from './components/services/Services';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
-import Wave from './components/footer/Wave';
 
 
 import Blockoption from './components/skills/Blockoption'
@@ -20,6 +19,7 @@ import ThreeD from './components/skills/myskills/ThreeD'
 
 
 import { BrowserRouter as Router , Route, Routes, Navigate} from 'react-router-dom';
+import Wave from './components/footer/Wave';
 
 function App(){
     return ( 
