@@ -32,13 +32,6 @@ function App(){
         <div class="bg"></div>
         <div class="bg bg2"></div>
         <div class="bg bg3"></div>
-        
-        {/* BG EFFECT 2 */}
-        <div class='bg__effectbox'>
-        <div class='sidewave -one'></div>
-        <div class='sidewave -two'></div>
-        <div class='sidewave -three'></div>
-        </div>
 
 
         <Nav/>
