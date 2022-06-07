@@ -8,10 +8,10 @@ import {FaInstagram} from 'react-icons/fa'
 const HomeSocial = () => {
   return (<>
     <div className='header__socials'>
-        <a href='https://linkedin.com' target="_blank" rel='noreferrer'><FaLinkedin/></a>
-        <a href='https://github.com' target="_blank" rel='noreferrer'><FaGithub/></a>
-        <a href='https://facebook.com' target="_blank" rel='noreferrer'><FaFacebook/></a>
-        <a href='https://instagram.com' target="_blank" rel='noreferrer'><FaInstagram/></a>
+        <a href='https://www.linkedin.com/in/khalid-khan-a93481202' target="_blank" rel='noreferrer'><FaLinkedin/></a>
+        <a href='https://github.com/khalid9996' target="_blank" rel='noreferrer'><FaGithub/></a>
+        <a href='https://www.facebook.com/people/Khalid-Khan/100010028379991/' target="_blank" rel='noreferrer'><FaFacebook/></a>
+        <a href='https://www.instagram.com/real_khalid_khan/' target="_blank" rel='noreferrer'><FaInstagram/></a>
     </div>
     </>
   )
