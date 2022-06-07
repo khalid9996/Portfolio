@@ -7,7 +7,7 @@ import Services from './components/services/Services';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 
-
+import './app.css'
 import Blockoption from './components/skills/Blockoption'
 
 import Coding from './components/skills/myskills/Coding'
@@ -21,12 +21,17 @@ import ThreeD from './components/skills/myskills/ThreeD'
 import { BrowserRouter as Router , Route, Routes, Navigate} from 'react-router-dom';
 import Wave from './components/footer/Wave';
 
+
 function App(){
     return ( 
     <>
         
-        <Router>
+        <Router> 
+        <div class="bg"></div>
+        <div class="bg bg2"></div>
+        <div class="bg bg3"></div>
         
+
         <Nav/>
         
         <Routes>
@@ -44,10 +49,13 @@ function App(){
         <Route path='/skills/videography' element={<><Blockoption/><Videography/></>}/>
         <Route path='/skills/3d' element={<><Blockoption/><ThreeD/></>}/>
 
+        
 
         </Routes>
+        
         <Wave/>
         <Footer/>
+        
         </Router>
 
     </> 

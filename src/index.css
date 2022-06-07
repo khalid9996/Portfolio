@@ -12,10 +12,10 @@
 }
 
 :root {
-    --color-bg: #1f1f38;
-    --color-bg-variant: #2c2c6c;
-    --color-primary: orange;
-    --color-primary-variant: rgba(77, 181, 255, 0.4);
+    --color-bg: #2E0249;
+    --color-bg-variant: #570A57;
+    --color-primary: #F806CC;
+    --color-primary-variant: #A91079;
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
 
@@ -64,15 +64,11 @@ h1 {
 
 section > h2, section > h5 {
     text-align: center;
-    color: var(--color-light);
+    color: white;
 }
 
 section > h2 {
-    color: var(--color-primary);
-}
-
-.text-light {
-    color: var(--color-light);
+    color: white;
 }
 
 a {
@@ -314,3 +310,5 @@ img {
     }
     
 }
+
+

@@ -25,10 +25,10 @@ const Wave = () => {
         <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
         </defs>
         <g class="parallax">
-        <use href="#gentle-wave" x="48" y="0" fill="rgba(255, 165, 0,0.7" />
-        <use href="#gentle-wave" x="48" y="3" fill="rgba(255, 165, 0,0.5)" />
-        <use href="#gentle-wave" x="48" y="5" fill="rgba(255, 165, 0, 0.3)" />
-        <use href="#gentle-wave" x="48" y="7" fill="#FFA500" />
+        <use href="#gentle-wave" x="48" y="0" fill="rgba(169, 16, 121,0.7" />
+        <use href="#gentle-wave" x="48" y="3" fill="rgba(169, 16, 121,0.5)" />
+        <use href="#gentle-wave" x="48" y="5" fill="rgba(169, 16, 121, 0.3)" />
+        <use href="#gentle-wave" x="48" y="7" fill="#2E0249" />
         </g>
         </svg>
       </div>

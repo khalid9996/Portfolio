@@ -4,7 +4,7 @@ section > h2 {
 
 section > h5 {
     margin-top: 5%;
-    color: orange;  
+    color: white;  
 }
 
 .about__container {
@@ -17,19 +17,19 @@ section > h5 {
 .about__me {
     width: 105%;
     aspect-ratio: 1/1.5;
-    border-radius: 2rem;
-    background: linear-gradient(
+    /* border-radius: 2rem; */
+    /* background: linear-gradient(
         45deg,
         transparent,
         rgb(119, 170, 0),
         transparent
-    );
+    ); */
     display: grid;
     place-items: center;
 }
 
 .about__me-image {
-    border-radius: 2rem;
+    border-radius: 0.7rem;
     overflow: hidden;
     transform: rotate(10deg);
     transition: 0.8s;
@@ -65,7 +65,7 @@ section > h5 {
 }
 
 .about__icon {
-    color: rgb(255, 153, 0);
+    color: #F806CC;
     font-size: 1.4rem;
     margin-bottom: 1rem;
     margin-top: 1rem;

@@ -17,10 +17,10 @@ header {
 
 @keyframes name {
     0% {
-        text-shadow: 0 0 8px rgb(245, 0, 233);
+        text-shadow: 0 0 8px #2E0249;
     }
     100% {
-        text-shadow: 0 0 20px rgb(233, 93, 0);
+        text-shadow: 0 0 20px #F806CC;
     }
 }
 /* ******************** Buttons *************** */
@@ -48,12 +48,12 @@ header {
     content: '';
     width: 1px;
     height: 2rem;
-    background: orange;
+    background: #F806CC;
 }
 
 /* **************** ME ************* */
 .me {
-    background: linear-gradient(orange, transparent);
+    background: linear-gradient(#F806CC, transparent);
     width: 22rem;
     height: 30rem;
     position: absolute;
@@ -62,17 +62,17 @@ header {
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     padding: 5rem 1.5rem 1.5rem;
-    box-shadow: 0 0 20px rgb(235, 113, 0);
+    /* box-shadow: 0 0 20px #2E0249; */
     animation: box 1.5s ease-in-out infinite alternate;
 }
 
 @keyframes box {
     0% {
-        box-shadow: 0 0 8px rgb(240, 68, 0);
+        box-shadow: 0 0 8px #2E0249;
     }
 
     100% {
-        box-shadow: 0 0 20px rgb(235, 113, 0);
+        box-shadow: 0 0 20px #F806CC;
     }
 }
 
@@ -185,18 +185,18 @@ header {
 
 /* ************ H5 ************ */
 .h5__color {
-    color: orange;
+    color: #ffffff;
     animation: h5_glow 1.5s linear infinite alternate;
 }
 
 @keyframes h5_glow {
     0% {
-        text-shadow: 0 0 10px orange;
+        text-shadow: 0 0 10px #570A57;
         
     }
 
     100% {
-        text-shadow: 0 0 10px yellow;
+        text-shadow: 0 0 10px #A91079;
     }
 }
 

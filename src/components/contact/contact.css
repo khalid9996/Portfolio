@@ -7,13 +7,13 @@
 }
 
 .contact__head {
-    color: orange;
+    color: white;
     animation: contact 1.5s linear infinite alternate;
 }
 
 @keyframes contact {
     0% {
-        text-shadow: 0 0 8px orange;
+        text-shadow: 0 0 8px #F806CC;
     }
 
     100% {
