@@ -1,267 +1,273 @@
-
 header {
-    height: 100vh;
-    padding-top: 7rem;
+  height: 100vh;
+  padding-top: 7rem;
 }
 
 .header__container {
-    text-align: center;
-    height: 100%;
-    position: relative;
+  text-align: center;
+  height: 100%;
+  position: relative;
 }
 
 .header__container > h1 {
-    
-    animation: name 1.5s linear infinite alternate;
+  animation: name 1.5s linear infinite alternate;
 }
 
 @keyframes name {
-    0% {
-        text-shadow: 0 0 8px #2E0249;
-    }
-    100% {
-        text-shadow: 0 0 20px #F806CC;
-    }
+  0% {
+    text-shadow: 0 0 8px #2e0249;
+  }
+  100% {
+    text-shadow: 0 0 20px #f806cc;
+  }
 }
 /* ******************** Buttons *************** */
 
 .hbtn {
-    margin-top: 2.5rem;
-    display: flex;
-    gap: 1.2rem;
-    justify-content: center;
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
 }
 
 /* ************* Social *********** */
 
 .header__socials {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.8rem;
-    position: absolute;
-    left: 0;
-    bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  position: absolute;
+  left: 0;
+  bottom: 3rem;
 }
 
 .header__socials::after {
-    content: '';
-    width: 1px;
-    height: 2rem;
-    background: #F806CC;
+  content: '';
+  width: 1px;
+  height: 2rem;
+  background: #f806cc;
 }
 
 /* **************** ME ************* */
 .me {
-    background: linear-gradient(#F806CC, transparent);
-    width: 22rem;
-    height: 30rem;
-    position: absolute;
-    left: calc(50% - 11rem);
-    margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0;
-    overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem;
-    /* box-shadow: 0 0 20px #2E0249; */
-    animation: box 1.5s ease-in-out infinite alternate;
+  background: linear-gradient(#f806cc, transparent);
+  width: 22rem;
+  height: 30rem;
+  position: absolute;
+  left: calc(50% - 11rem);
+  margin-top: 4rem;
+  border-radius: 12rem 12rem 0 0;
+  overflow: hidden;
+  padding: 5rem 1.5rem 1.5rem;
+  /* box-shadow: 0 0 20px #2E0249; */
+  animation: box 1.5s ease-in-out infinite alternate;
 }
 
 @keyframes box {
-    0% {
-        box-shadow: 0 0 8px #2E0249;
-    }
+  0% {
+    box-shadow: 0 0 8px #2e0249;
+  }
 
-    100% {
-        box-shadow: 0 0 20px #F806CC;
-    }
+  100% {
+    box-shadow: 0 0 20px #f806cc;
+  }
 }
 
 .me img {
-    transform: rotate(10deg);
-    border-radius: 2rem;
-    transition: 0.5s;
+  transform: rotate(10deg);
+  border-radius: 1.2rem;
+  transition: 0.5s;
 }
 
 .me img:hover {
-    transform: scale(140%);
-
+  transform: scale(150%);
 }
 
 /* **************** ScROLL DOWN ************** */
 .scroll__down {
-    position: absolute;
-    right: -2.3rem;
-    bottom: 5rem;
-    transform: rotate(90deg);
-    font-weight: 300;
-    font-size: 0.9rem;
+  position: absolute;
+  right: -2.3rem;
+  bottom: 5rem;
+  transform: rotate(90deg);
+  font-weight: 300;
+  font-size: 0.9rem;
 }
 
 /* ***************** Media Queries (Medium Devices)********** */
 
 @media screen and (max-width: 1024px) {
-    header {
-        height: 100vh;
-
-    }
+  header {
+    height: 100vh;
+  }
 }
 
 /* ***************** Media Queries (small Devices)********** */
 
 @media screen and (max-width: 600px) {
-    header {
-        height: 100vh;
-    }
+  header {
+    height: 100vh;
+  }
 
-    .header__socials,
-    .scroll__down {
-        display: none;
-    }
+  .header__socials,
+  .scroll__down {
+    display: none;
+  }
 }
 
 /* ************ btn6 css ********* */
 
-
 .btn6__h {
-    
-    width: 150px;
-    height: 50px;
-    border: none;
-    outline: none;
-    color: #fff;
-    background: #111;
-    cursor: pointer;
-    position: relative;
-    z-index: 0;
-    border-radius: 10px;
+  width: 150px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
 }
 
 .btn6__h:before {
-    content: '';
-    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
-    position: absolute;
-    top: -2px;
-    left:-2px;
-    background-size: 400%;
-    z-index: -1;
-    filter: blur(5px);
-    width: calc(100% + 4px);
-    height: calc(100% + 4px);
-    animation: glowing 20s linear infinite;
-    opacity: 0;
-    transition: opacity .3s ease-in-out;
-    border-radius: 10px;
+  content: '';
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
 }
 
 .btn6__h:active {
-    color: transparent
+  color: transparent;
 }
 
 .btn6__h:active:after {
-    background: transparent;
+  background: transparent;
 }
 
 .btn6__h:hover:before {
-    opacity: 1;
+  opacity: 1;
 }
 
 .btn6__h:after {
-    z-index: -1;
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #111;
-    left: 0;
-    top: 0;
-    border-radius: 10px;
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
 }
 
 @keyframes glowing {
-    0% { background-position: 0 0; }
-    50% { background-position: 400% 0; }
-    100% { background-position: 0 0; }
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
 }
 
 /* ************ H5 ************ */
 .h5__color {
-    color: #ffffff;
-    animation: h5_glow 1.5s linear infinite alternate;
+  color: #ffffff;
+  animation: h5_glow 1.5s linear infinite alternate;
 }
 
 @keyframes h5_glow {
-    0% {
-        text-shadow: 0 0 10px #570A57;
-        
-    }
+  0% {
+    text-shadow: 0 0 10px #570a57;
+  }
 
-    100% {
-        text-shadow: 0 0 10px #A91079;
-    }
+  100% {
+    text-shadow: 0 0 10px #a91079;
+  }
 }
-
-
-
-
 
 /* ***************** Media Queries (Height)********** */
 
 @media screen and (max-height: 900px) {
-    .view {
-        padding-bottom: 8rem;
-    }
+  .view {
+    padding-bottom: 8rem;
+  }
 }
 
 @media screen and (max-height: 800px) {
-    .view {
-        padding-bottom: 10rem;
-    }
+  .view {
+    padding-bottom: 10rem;
+  }
 }
 
 @media screen and (max-height: 700px) {
-    .view {
-        padding-bottom: 15rem;
-    }
+  .view {
+    padding-bottom: 15rem;
+  }
 }
 
 @media screen and (max-height: 600px) {
-    .view {
-        padding-bottom: 17rem;
-    }
+  .view {
+    padding-bottom: 17rem;
+  }
 }
 
 @media screen and (max-height: 500px) {
-    .view {
-        padding-bottom: 22rem;
-    }
+  .view {
+    padding-bottom: 22rem;
+  }
 }
 
 @media screen and (max-height: 400px) {
-    .view {
-        padding-bottom: 25rem;
-    }
+  .view {
+    padding-bottom: 25rem;
+  }
 }
 
 @media screen and (max-height: 300px) {
-    .view {
-        padding-bottom: 28rem;
-    }
+  .view {
+    padding-bottom: 28rem;
+  }
 }
 
 @media screen and (max-height: 200px) {
-    .view {
-        padding-bottom: 35rem;
-    }
+  .view {
+    padding-bottom: 35rem;
+  }
 }
 
 @media screen and (max-height: 100px) {
-    .view {
-        padding-bottom: 42rem;
-    }
+  .view {
+    padding-bottom: 42rem;
+  }
 }
 
 @media screen and (max-height: 50px) {
-    .view {
-        padding-bottom: 50rem;
-    }
+  .view {
+    padding-bottom: 50rem;
+  }
 }
